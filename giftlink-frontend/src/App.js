@@ -1,5 +1,5 @@
 import React from 'react';
-import { Routes, Route, useNavigate } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom'; // Removed useNavigate
 import MainPage from './components/MainPage/MainPage';
 //Create the Register and Login Pages
 import LoginPage from './components/LoginPage/LoginPage';
